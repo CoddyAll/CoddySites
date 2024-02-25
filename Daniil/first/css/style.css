@@ -1,0 +1,15 @@
+div{
+		margin: auto;
+		width: 90%;
+		font-family: 'Marck Script', cursive;
+	}
+
+h1{
+	color: green;	
+	}
+
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
