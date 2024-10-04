@@ -1,0 +1,36 @@
+
+h1{
+	
+}
+a{
+	display: block;
+	text-decoration: none ;
+	color: black;
+	font-size: 40px;
+	transition: all 0.5s ease;
+
+}
+
+a:hover{
+	color: white;
+	background-color: black;
+}
+
+div{
+	padding: 20px 40px;
+	text-align: center; 
+
+}
+body{
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+main{
+	width: 70%;
+	background-color: #fff;
+	margin: auto;
+
+}
+

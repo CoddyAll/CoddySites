@@ -1,0 +1,44 @@
+<html>
+  
+  <head>
+  <title>Куки кликер</title>
+  <script type = "text/javascript">
+      var score = 0;
+      function buttonClick(){
+        score = score + 1;
+        document.getElementById("result").innerHTML= score;
+      }
+      
+    </script>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  
+  <body>
+    <h1 align="center"> Кликер печеньки! </h1>
+    <h2 align="center">  кликай! </h2>
+    <hr/>
+    <h3>Правило игры:</h3>
+    <p>При нажатии на печеньку, вы получите 1 балл. Наберите как можно больше баллов</p>
+    <p align="center" >
+      <button onClick="buttonClick()">
+     <img src="cookie.png" width=300px />
+      </button> 
+    </p>
+    
+    
+    <h1 align="center">
+      Счет:  <div id="result">0</div> 
+    </h1> 
+    
+  
+    
+    <footer align="center">
+      Сайт создан Даниилом в 2021 г.
+    </footer>
+    
+  </body>
+  
+ 
+    
+  
+</html>
