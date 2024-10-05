@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.first{
+	background-image: url(../img/img1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.Tourism{
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+	color: white;
+}
+.text-container{
+	width: 40%;
+	margin-left: 150px;
+	margin-top: 100px;
+}
+.line1{
+	font-weight: bold;
+	opacity:0.5 ;
+	color: white;
+	letter-spacing: 1px;
+}
+.line2{
+	font-size: 64px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: white;
+}
+.line3{
+	font-size: 25;
+	color: white;
+}
+.second{
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.gallery_container{
+	width: 60%;
+	max-width: 1000px;
+}
+.gallery_img{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+img{
+	display: block;
+	height: auto;
+	max-width: 100%;
+	transition:all 1s ease;
+}
+img:hover{
+	transform: scale(1.07) rotate(3deg)
+}
+.img2{
+width: 55%;
+}
+.wrapper{
+	margin-left: 20px;
+}
+.img4{
+	margin-top:20px ;
+}
+.gallery_text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.header{
+	font-size: 48px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	line-height: 1;
+}
+.gallery_p{
+	font-size: 18px;
+}
+.last-container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 200px;
+	background-image: url(../img/img5.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+
+
+}
+a{
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	letter-spacing: 1px;
+	padding: 10px 234px;
+}
+.last_text{
+	color: white;
+	font-size: 16px;
+	margin-top:20px ;
+	text-align: center;
+	letter-spacing: 1px;
+}

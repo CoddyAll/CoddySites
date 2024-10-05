@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body{
+	background-color: #eeeeee;
+}
+main{
+	width: 76%;
+	background-color: #fff;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+h1{
+	width:100%;
+	text-align:center;
+	font-size:48px;
+}
+.photo{
+	width:calc(50% - 40px);
+	height: calc((35vw - 40px)/16*9);
+	margin: 20px;
+	background-position: center;
+	background-size: cover;
+	transition:all 2s ease;
+}
+.photo:hover{
+	transform: scale(1.07) rotate(3deg)
+}
+
+.photo1{
+	background-image:url(../img/burger.jpg);
+}
+.photo2{
+	background-image:url(../img/borsh.jpg);
+}
+.photo3{
+	background-image:url(../img/pizza.jpg);
+}
+.photo4{
+	background-image:url(../img/ramen.jpeg);
+}
+.photo5{
+	background-image:url(../img/shaurma.jpg);
+}
+.photo6{
+	background-image:url(../img/kotletki.jpg);
+}
+.photo7{
+	background-image:url(../img/rulet.jpeg);
+}
+.photo8{
+	background-image:url(../img/steik.jpg);
+}
+.photo9{
+	background-image:url(../img/filadelfia.jpg);
+}
+.photo10{
+	background-image:url(../img/cheesecake.jpg);
+}
+.photo11{
+	background-image:url(../img/lazania.jpg);
+}
+.photo12{
+	background-image:url(../img/ponchik-klubnika3.jpg);
+}
+.photo13{
+	background-image:url(../img/jelly.jpg);
+}
+.photo14{
+	background-image:url(../img/pinguin.jpg);
+}
+a{
+	text-decoration:none;
+	margin:auto;
+	font-size:20px;
+	color:black;
+}
+a:hover{
+	color:red;
+}
